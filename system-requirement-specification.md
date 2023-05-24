@@ -62,3 +62,6 @@ Attributes:
 - user_id (FK): string
 - place_id (FK): string
 - rating: int
+
+## Relational Schema
+![Relational Schema](https://github.com/Tresure-Bangkit2023/.github/blob/main/relational-schema.png)
