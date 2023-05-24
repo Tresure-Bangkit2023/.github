@@ -6,22 +6,26 @@ Below are the defined model to implement on the application:
 
 ### User
 Attributes:
-- user_id: string
+- user_id (PK): string
+- username (Unique): string
 - password: string
 - email: string
 - full_name: string
-- age: int
 - location: string
-- places_preferences:
-  - category_id: list:Categories
-  - price_range: int
-  - solo_traveler: boolean
+- age: int
+- liked_categories: list
+- price_range_id (FK): int
+- solo_traveler: boolean
+
+### PriceRange
+- price_range_id (PK): int
+- name: string
 
 ### Plan
 Attributes:
-- plan_id: string
+- plan_id (PK): string
 - user_id (FK): string
-- plan_title: string
+- title: string
 - num_of_people: int
 - city: string
 - start_location: Place
@@ -37,12 +41,12 @@ Attributes:
 
 ### Category
 Attributes: 
-- category_id: string
+- category_id (PK): string
 - name: string
 
 ### Place
 Attributes:
-- place_id: string
+- place_id (PK): string
 - category_id (FK): string
 - name: string
 - description: string
