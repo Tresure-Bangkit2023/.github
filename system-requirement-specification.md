@@ -6,21 +6,34 @@ Below are the defined model to implement on the application:
 
 ### User
 Attributes:
-- id
-- username
-- password
-- email
-- full_name
+- user_id: string
+- username: string
+- password: string
+- email: string
+- full_name: string
+- age: int
+- location: string
+- places_preferences:
+  - category_id: list:Categories
+  - price_range: int
+  - solo_traveler: boolean
+
+### Category
+- category_id: string
+- name: string
 
 ### Place
-- id
-- name
-- description
-- price
-- coordinate
-- image
+- place_id: string
+- category_id (FK): string
+- name: string
+- description: string
+- price: int
+- lat: float
+- lng: float
+- rating: float -> avg from user rating
+- image: string
 
 ### Place_Rating
-- user_id
-- place_id
-- rating
+- user_id (FK): string
+- place_id (FK): string
+- rating: int
