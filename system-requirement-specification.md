@@ -7,7 +7,6 @@ Below are the defined model to implement on the application:
 ### User
 Attributes:
 - user_id: string
-- username: string
 - password: string
 - email: string
 - full_name: string
