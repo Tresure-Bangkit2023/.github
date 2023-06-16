@@ -10,7 +10,6 @@ Our team wanted to produce the “Tresure” app by first conducting research to
 ### .Mobile Developer
 Build a mobile application with the following features:
 - **Customized Itinerary**<br>Create an application that can customize the itinerary based on user preferences and constraints, such as budget, location, preferred activities, and interests.
-- **Real-Time Weather Information**<br>Integrate real-time weather information into the application to help users plan their trips better and avoid unfavorable weather conditions.
 
 #### Tasks:
 - Designing the mobile application**
