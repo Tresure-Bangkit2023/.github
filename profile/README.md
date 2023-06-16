@@ -37,3 +37,10 @@ Deploy the application on the cloud and create a private API
 - **Create a budget alert**
 - **Continuously optimize the infrastructure for scalability and security**
 
+### Our Team Member:
+1. M013DSY0554 - Adelia Novta Krisandi Putri - Institut Pertanian Bogor - ML - Active
+2. M151DSX3325 - Devin Jaya Nugraha - Universitas Brawijaya - ML - Active
+3. C013DSX1661 - Muhammad Dzaki Fahreza - Institut Pertanian Bogor - CC - Active
+4. C151DSX3459 - Qolandar Annuri - Universitas Brawijaya - CC - Active
+5. A013DSY1025 - Christy Octaviani Hutapea - Institut Pertanian Bogor - MD - Active
+6. A151DKX4007 - Raihan Alif Nurdianto - Universitas Brawijaya - MD - Active
