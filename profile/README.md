@@ -14,7 +14,7 @@ Build a mobile application with the following features:
 #### Tasks:
 - Designing the mobile application**
 - Integration with the API**
-- Implementing customized itineraries and real-time weather information**
+- Implementing customized itineraries**
 
 ### .Machine Learning
 Recommend personalized travel activities and destinations based on user preferences.
